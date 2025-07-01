@@ -1,4 +1,4 @@
 package com.biblioteca.entity;
 
-public class Publicacion {
+public class Publicacion extends {
 }

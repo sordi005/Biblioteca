@@ -1,4 +1,17 @@
 package com.biblioteca.entity;
 
-public class Revista {
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+@Getter
+@Setter
+@ToString
+@SuperBuilder
+@NoArgsConstructor
+public class Revista extends Base {
+    private int volumen;
+    private int nuemro;
 }
